@@ -8,6 +8,7 @@ The J-Link Device Support Kit (DSK) allows adding support for new devices to the
 
 - **FCM363X**
 - **FCMA62N**
+- **FCMB63X**
 - **FGMH63X**
 
 ## Repository Structure
@@ -83,7 +84,7 @@ After installation, you can verify the devices are recognized by:
    JLink.exe
    > ?
    ```
-   You should see `FCM363X`, `FCMA62N`, and `FGMH63X` in the device list.
+   You should see `FCM363X`, `FCMA62N`, `FCMB63X`, and `FGMH63X` in the device list.
 
 2. **Using J-Flash:**
    - Open J-Flash
@@ -95,6 +96,7 @@ After installation, you can verify the devices are recognized by:
 | Device | Interface | Device Identifier | Max Speed (kHz) |
 |:------:|:---------:|:-----------------:|:---------------:|
 | FCMA62N | SWD | RW610:RDRW610 / FCMA62N | 96000 |
+| FCMB63X | SWD | RW610:RDRW610 / FCMB63X | 96000 |
 | FCM363X | JTAG | FCM363X | 10000 / 15000* |
 | FGMH63X | JTAG | FGMH63X | 10000 / 15000* |
 | FCM363X-L | JTAG | RW610 | 10000 / 15000* |
