@@ -6,7 +6,9 @@ This repository contains J-Link device support patches for Quectel modules with 
 
 The J-Link Device Support Kit (DSK) allows adding support for new devices to the J-Link software. This repository includes device support files for:
 
-- **FCM363X**
+- **FCM363XAB**
+- **FCM363XAC**
+- **FCM363X** (legacy compatibility)
 - **FCMA62N**
 - **FCMB63X**
 - **FGMH63X**
@@ -97,11 +99,13 @@ After installation, you can verify the devices are recognized by:
 |:------:|:---------:|:-----------------:|:---------------:|
 | FCMA62N | SWD | RW610:RDRW610 / FCMA62N | 96000 |
 | FCMB63X | SWD | RW610:RDRW610 / FCMB63X | 96000 |
-| FCM363X | JTAG | FCM363X | 10000 / 15000* |
-| FGMH63X | JTAG | FGMH63X | 10000 / 15000* |
-| FCM363X-L | JTAG | RW610 | 10000 / 15000* |
+| FCM363XAB | JTAG | FCM363XAB | 10000 / 25000* |
+| FCM363XAC | JTAG | FCM363XAC | 10000 / 25000* |
+| FCM363X (legacy compatibility) | JTAG | FCM363X | 10000 / 25000* |
+| FGMH63X | JTAG | FGMH63X | 10000 / 25000* |
+| FCM363X-L | JTAG | RW610 | 10000 / 25000* |
 
-\* 15000 kHz if supported by the debugger
+\* 25000 kHz if supported by the debugger
 
 ## Files Included
 
